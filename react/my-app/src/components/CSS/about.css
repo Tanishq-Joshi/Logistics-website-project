@@ -1,0 +1,49 @@
+.Title {
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
+    font-size: 7vh;
+}
+
+.Info-card-container {
+    display: flex;
+    position: absolute;
+    top: 43vh;
+    left: 17vw;
+    gap: 10vh;
+}
+
+.Info-card {
+    width: 25vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5vh;
+    border-radius: 2vh;
+}
+
+.About-Title {
+    font-family: "Comfortaa";
+    font-size: 5vh;
+}
+
+.About-Content {
+    font-family: "Dosis";
+    font-size: 3.5vh;
+    text-align: justify;
+    margin-top: 2vh;
+}
+
+.Review-card {
+    text-align: left;
+    margin-top: 2vh;
+}
+
+.Review-Title {
+    font-family: "Comfortaa";
+    font-size: 4vh;
+}
+
+.Review-Content {
+    font-family: "Dosis";
+    font-size: 3vh;
+    text-align: justify;
+}

@@ -1,0 +1,11 @@
+.Footer {
+    background-color: #f1bfa4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh;
+}
+
+.Social-Media-Handles {
+    display: flex;
+    gap: 5vh;
+}

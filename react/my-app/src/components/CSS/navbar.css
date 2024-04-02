@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 1vh;
+    height: 0vh;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 100vh;
+}
+
+.navbar {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+    padding-top: 5vh;
+}
+
+.navbar-container {
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    width: 80vw;
+    padding: 1.5vh 4vh;
+    margin: 0px;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4vh;
+    border-radius: 0.5vh;
+}
+
+.logo {
+    width: 15vh;
+}
+
+.navbar-links {
+    font-size: 3vh;
+    text-decoration: none;
+    color: black;
+    font-family: "Comfortaa";
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.navbar-links:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}

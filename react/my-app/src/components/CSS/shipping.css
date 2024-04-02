@@ -1,0 +1,64 @@
+.Shipping-Heading {
+    font-family: "Comfortaa";
+    text-align: left;
+}
+
+.Shipping-Image {
+    width: 55vh;
+    border: 2vh solid white;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 2vh;
+}
+
+.Shipping-Content {
+    text-align: left;
+    font-family: "Dosis";
+    font-size: 4vh;
+    text-align: justify;
+}
+
+.container {
+    text-align: left;
+    position: relative;
+}
+
+.Shipps {
+    padding: 10vh;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 8vh;
+}
+
+.appointment {
+    width: 4vh;
+}
+
+.Booking {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1vh;
+    right: 0vh;
+    gap: 2vh;
+    background-color: #243746;
+    color: white;
+    padding: 2vh;
+    font-family: "Comfortaa";
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    border-radius: 2vh;
+    transition: 0.3s;
+}
+
+.Booking:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+#International {
+    margin-top: 10vh;
+}

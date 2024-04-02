@@ -1,0 +1,28 @@
+.login {
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    height: 40vh;
+    width: 60vh;
+    top: 30vh;
+    left: 33vw;
+    padding: 10vh;
+    border-radius: 3vh;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Input {
+    font-family: "Dosis";
+    width: 35vh;
+    margin-top: 5vh;
+    padding: 1vh 3vh;
+    border: 0.3vh solid black;
+    border-radius: 1vh; 
+}
+
+.Submit {
+    background-color: white;
+    margin-top: 5vh;
+    padding: 1vh 3vh;
+    border-radius: 1vh;
+    font-family: "Comfortaa";
+}

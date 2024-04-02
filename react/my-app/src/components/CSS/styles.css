@@ -1,0 +1,8 @@
+.Slogan {
+  z-index: 20;
+  position: absolute;
+  top: 45vh;
+  left: 35vw;
+  color: white;
+  font-size: 4vh;
+}
